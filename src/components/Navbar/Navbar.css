@@ -8,6 +8,7 @@
 .navbar ul {
   list-style-type: none;
   padding: 0;
+  margin: 0; /* Varsayılan marginleri sıfırla */
   display: flex;
   justify-content: center; /* Menü öğelerini merkeze hizala */
 }
@@ -28,4 +29,40 @@
 
 .navbar ul li a:hover {
   text-decoration: underline;
+}
+
+.navbar-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navbar-content h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #777;
 }

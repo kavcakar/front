@@ -24,6 +24,13 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <div className="navbar-content">
+        <h2>Welcome to Our Movie City</h2>
+        <div className="search-container">
+          <input type="text" placeholder="Search..." className="search-input" />
+          <button className="search-button">Search</button>
+        </div>
+      </div>
     </nav>
   );
 };
